@@ -14,7 +14,7 @@
 <ol>
 	<li><a {href}>Preload Enabled</a> - Reactivity Breaks</li>
 	<li><a href={resolve('/')} data-sveltekit-reload>Home</a> - Full Page Navigation</li>
-	<li><a {href} data-sveltekit-preload-data={false}>Preload Disabled</a></li>
+	<li><a {href} data-sveltekit-preload-data="off">Preload Disabled</a></li>
 </ol>
 
 {@render children()}
